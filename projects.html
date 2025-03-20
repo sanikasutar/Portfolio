@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Atharv Pradip Kalambkar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+
+    <!-- Fixed Background -->
+    <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" alt="Projects Background" class="fixed-background projects-bg">
+
+    <!-- <header style="text-align: center; padding: 2rem 0; background: transparent; position: relative; z-index: 10;">
+        <div class="container">
+            <h1 style="font-size: 2.5rem; color: white; font-weight: 700; margin: 0;">My Projects</h1>
+        </div>
+    </header> -->
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li class="dropdown-container">
+                <a href="#">More</a>
+                <ul class="dropdown">
+                    <li><a href="index.html#education">Education</a></li>
+                    <li><a href="extracurricular.html">Extra-Curricular</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="https://drive.google.com/file/d/1EpG5GBngFvgAnF13c4kvpYXdzCxRLk6B/view?usp=sharing" target="_blank">View Resume</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+
+                <div class="project-card right">
+                    <div class="project-content">
+                        <div class="project-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Autoscaling of Nutanix VM</h3>
+                        <p class="project-description">
+                            Automated the scaling process of Nutanix VMs at Airtel Digital by integrating alert-based scaling.  
+                            Using **Kibana**, the system detects threshold breaches and triggers alerts, enabling automatic VM scaling.  
+                            This solution replaces the manual process, ensuring efficiency and optimized resource utilization.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Node.js</span>
+                            <span>Docker</span>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 1 -->
+                <div class="project-card left">
+                    <div class="project-content">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Scalable Serverless Web Application</h3>
+                        <p class="project-description">
+                            Developed a serverless web application to enhance scalability and performance, leveraging auto-scaling 
+                            backend logic and secure API management to support 10,000+ concurrent users efficiently. Improved 
+                            deployment speed by 20% and reduced infrastructure costs with serverless architecture.
+                        </p>
+                        <div class="tech-stack">
+                            <span>AWS Amplify</span>
+                            <span>Lambda</span>
+                            <span>DynamoDB</span>
+                            <span>API Gateway</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card right">
+                    <div class="project-content">
+                        <div class="project-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h3>Intelligent Document Extractor</h3>
+                        <p class="project-description">
+                            Developed a document extraction tool using PIL and Amazon Web Services (AWS) IAM to extract and 
+                            analyze text from PDFs and images, converting unstructured data into structured insights.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Amazon IAM</span>
+                            <span>Python</span>
+                            <span>BOTO3</span>
+                            <span>PIL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card left">
+                    <div class="project-content">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>Retail Order Analysis</h3>
+                        <p class="project-description">
+                            Analyzed and visualized retail order data using MySQL, Python, and Kaggle APIs, focusing on data 
+                            cleaning and processing to uncover insights that optimize retail operations and enhance customer experience.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>MySQL</span>
+                            <span>Kaggle API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Sanika Rajendra Sutar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
